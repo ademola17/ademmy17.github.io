@@ -1,0 +1,40 @@
+head{
+	height: 90px auto;
+}
+h1{
+	background-color:purple;
+	height:90px;
+	color:white;
+	text-align: left;
+	margin-top: 10px;
+
+
+}
+a{
+	float: right;
+	color: black;
+}
+body{
+	margin:0;
+	padding:0px;
+    background-color: 
+  }
+.slider{
+	width:900px;
+	height: 500px;
+	
+	background: url(9.jpg);
+	margin-top:10px;
+	animation: slide 25s ease-in infinite;
+	
+	float: right;
+}
+@keyframes slide{
+	25%{
+		background:  url(6.jpg);
+	}
+	50%{
+		background:  url(3.jpg);
+	}
+
+}
